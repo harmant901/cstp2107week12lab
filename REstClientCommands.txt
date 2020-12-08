@@ -1,0 +1,14 @@
+POST http://localhost:8000
+content-type: application/json
+
+{ "model": "Toyota" }
+
+DELETE http://localhost:8000
+content-type: application/json
+*
+{ "id": "3d3ab8c1-c649-4d9a-85e2-e8c024676104"}
+
+GET http://localhost:8000
+content-type: application/json
+
+{ "apiKey" : "5adf7706-61c8-349-96b8-8a6c4b321e18"}
